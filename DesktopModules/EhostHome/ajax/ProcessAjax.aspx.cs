@@ -38,7 +38,7 @@ public partial class ProcessAjax : System.Web.UI.Page
 	{
 		get
 		{
-            return "Data Source=TOM-MSI;Initial Catalog=ExcellentTom;Integrated Security=True";
+            return "Data Source=tcp:h3t7yjc5fx.database.windows.net,1433;Initial Catalog=TGWeb_DB;User ID=tomtang@h3t7yjc5fx;Password=Tomyouaregreat0922";
 		}
 	}
 
