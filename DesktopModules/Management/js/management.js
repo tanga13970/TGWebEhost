@@ -89,6 +89,7 @@ function addNewItem(newItemName, newItemContent) {
                 $('.input_item_name').val('');
             }
             $('#myModal').modal('hide');
+			fetchManageItems();
         },
         error: function (response, textStatus, jqXHR) {
             $('#myModal').modal('hide');
