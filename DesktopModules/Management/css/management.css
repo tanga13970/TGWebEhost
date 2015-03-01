@@ -1,0 +1,87 @@
+.nav-tabs li{
+	
+}
+
+.nav-tabs li:active{
+	
+}
+
+.tab-content{
+	height:auto;
+	background:white;
+}
+ 
+#myTab{
+	margin-left:-1px;
+}
+
+.btn_add_new_seed{
+	margin-top:0px;
+	transition:width 0.3s;
+}
+
+.header{
+	border-bottom:1px solid #eee;
+    margin-top: 15px;
+}
+
+.work-column-div{
+	margin-top:20px;
+	padding-left:0;
+	margin-left:-15px;
+    border-bottom:1px solid #eee;
+}
+
+    .div_item_grid_header div
+    {
+        font-weight:700;
+    }
+
+.work-column-content-div,.work_content_wrapper{
+	margin-top:1vh;
+	padding-left:0;
+	margin-left:-15px;
+}
+
+.work_inner_content_wrapper{
+	padding-left:0;padding-right:0;
+    height:34px;
+    border-bottom:1px solid #eee;
+    line-height:34px;
+}
+.work_content_div
+{  
+    height:850px;
+    overflow-y:auto;
+    padding-bottom:20px !important;
+    width:100%;
+}
+
+.div_date
+{
+    padding-left:3px;
+}
+
+.div_content
+{
+    padding-left:13px;
+}
+
+.div-item-to-be-inserted
+{
+    border-width: 0;
+    margin-top:0px;
+}
+.work_inner_content_wrapper:hover
+{
+    background-color:#eee;
+    cursor:pointer;
+}
+.span_content, .span_name, .span_date
+{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    display: block;
+}
