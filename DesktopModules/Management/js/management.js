@@ -7,7 +7,7 @@ $(function () {
 
 	$('.btn_add_new_seed_in_modal').off('click');
 	$('.btn_add_new_seed_in_modal').click(function(){
-	    var itemContent = $('.jqte_editor').find('span').html();
+	    var itemContent = $('.jqte_editor').html();
 		var itemName =  $('.input_item_name').val();
 		
 		addNewItem(itemName, itemContent);
