@@ -1,0 +1,1 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ProcessAjax.aspx.cs" Inherits="ProcessAjax" %>
