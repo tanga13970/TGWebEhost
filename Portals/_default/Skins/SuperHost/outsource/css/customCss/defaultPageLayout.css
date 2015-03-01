@@ -471,7 +471,7 @@ form input[type="text"], form input[type="email"], form input[type="password"], 
 	#header{padding-bottom:10px;}
 	.btn-primary{margin-top:-8px;}
 	#nav{margin-right: 0%;margin-top:0;font-size: 0.85em !important;}
-	#dnn_dnnLogo_imgLogo{height:60px !important;width:100px !important;}
+	#dnn_dnnLogo_imgLogo{height:131px ;width:245px ;}
 	#skel-layers-visibleWrapper{display:none;}
 	#navPanel{display:none ;width:0px;}
 }
