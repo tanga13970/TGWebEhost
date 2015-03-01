@@ -1,0 +1,77 @@
+<ul class="nav nav-pills nav-stacked">
+[*>NODE]
+</ul>
+[>NODE]
+	<li class="[?NODE]dropdown [/?][?SELECTED]active[/?]">
+	[?ENABLED]
+		<a class="dropdown-toggle" data-toggle="dropdown" href="[=URL]" target="[=TARGET]" [?NODE] [/?]>[=TEXT] [?NODE]<b class="caret hidden-desktop pull-right icon-chevron-down icon-white"></b>[/?]</a>
+	[?ELSE]
+		<a class="dropdown-toggle" data-toggle="dropdown"  href="#" [?NODE] [/?]>[=TEXT] [?NODE]<b class="caret hidden-desktop pull-right icon-chevron-down icon-white"></b>[/?]</a>
+	[/?]
+	[?NODE]
+	    <ul class="dropdown-menu sub-menu">
+	    [*>NODE]
+	    </ul>
+	[/?]
+	</li>
+[/>]
+
+<script type="text/javascript">
+(function($){
+	$(document).ready(function(){
+		
+		//$(".tg_sub_menu").css("display","none");	
+		
+		//$(".nav-pills > li a").bind("mouseover", function(event){
+			//$(this).parent().find('ul').first().addClass('show_menu');			
+		//});
+		//$(document).click(function(){
+			//$(".show_menu").removeClass("show_menu");
+		//});
+		
+		//$(".site_navs_ul").bind("mouseover", function(event){
+			//$(".show_menu").last().removeClass("show_menu");			
+		//});
+	});
+})(jQuery);
+</script>
+
+<style type="text/css">
+	.dropdown-menu .sub-menu {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    margin-top: -1px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+    visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-tabs .dropdown-menu, .nav-pills .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+}
+
+.navbar .sub-menu:before {
+    border-bottom: 7px solid transparent;
+    border-left: none;
+    border-right: 7px solid rgba(0, 0, 0, 0.2);
+    border-top: 7px solid transparent;
+    left: -7px;
+    top: 10px;
+}
+.navbar .sub-menu:after {
+    border-top: 6px solid transparent;
+    border-left: none;
+    border-right: 6px solid #fff;
+    border-bottom: 6px solid transparent;
+    left: 10px;
+    top: 11px;
+    left: -6px;
+}
+</style>

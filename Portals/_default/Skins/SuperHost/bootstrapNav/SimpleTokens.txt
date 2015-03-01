@@ -1,0 +1,26 @@
+<ul >
+[*>NODE]
+</ul>
+[>NODE]
+	<li class="[?NODE]dropdown [/?][?SELECTED]active[/?]">
+	[?ENABLED]
+		<a href="[=URL]" target="[=TARGET]" [?NODE] [/?]>[=TEXT] [?NODE][/?]</a>
+	[?ELSE]
+		<a href="#" [?NODE] [/?]>[=TEXT] [?NODE][/?]</a>
+	[/?]
+	[?NODE]
+	    <ul >
+	    [*>NODE]
+	    </ul>
+	[/?]
+	</li>
+[/>]
+
+<script type="text/javascript">
+(function($){
+	$(document).ready(function(){
+		
+		
+	});
+})(jQuery);
+</script>
